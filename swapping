@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int m,n,temp;
+print("enter m and n value:");
+scanf("%d%d",&m,&n);
+printf("before swapping:m=%d,n=%d");
+temp=m;
+m=n;
+n=temp;
+printf("after swapping:m=%d,n=%d",m,n);
+return 0;
+}
