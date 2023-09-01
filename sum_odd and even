@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int i,n,sum_e=0,sum_o=0;
+    printf("enter the n value:");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
+    {
+        if(i%2==0)
+        {
+            sum_e=sum_e+i;
+        }
+    }
+    for(i=0;i<=n;i++)
+    {
+        if(i%2==1)
+        {
+            sum_o=sum_o+i;
+        }
+    }
+    printf("sum of all integers from 0 to %d is %d",n,sum_e);
+    printf("sum of all integers from 0 to %d is %d",n,sum_o);
+    return 0;
+}
